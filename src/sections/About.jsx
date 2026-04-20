@@ -11,18 +11,18 @@ const highlights = [
     icon: Rocket,
     title: "Performance",
     description:
-      "Optimizing for speed and delivering lightning-fast user experiences.",
+      "Optimizing for speed and mathematically enhance solutions against advanced threats",
   },
   {
     icon: Users,
     title: "Collaboration",
-    description: "Working closely with teams to bring ideas to life.",
+    description: "Working closely with teams or leading them to bring ideas to life.",
   },
   {
     icon: Lightbulb,
     title: "Innovation",
     description:
-      "Staying ahead with the latest technologies and best practices.",
+      "Staying ahead with the latest technologies and best practices while reading new articles and blogs.",
   },
 ];
 
@@ -40,39 +40,28 @@ export const About = () => {
             </div>
 
             <h2 className="text-4xl md:text-5xl font-bold leading-tight animate-fade-in animation-delay-100 text-secondary-foreground">
-              Building the future,
+              Hardening the future, 
               <span className="font-serif italic font-normal text-white">
                 {" "}
-                one component at a time.
+                one vulnerability at a time.
               </span>
             </h2>
 
             <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
               <p>
-                I'm a passionate software engineer with over 5 years of
-                experience crafting digital products that make a difference. My
-                journey started with a curiosity for how things work on the web,
-                and it has evolved into a deep expertise in modern frontend
-                technologies.
+                I am a dedicated Security Engineer with a dual-specialization in Offensive Security and DevSecOps. My journey began with a deep curiosity about system vulnerabilities and has evolved into a mastery of both attacking and defending complex environments. I hold an Engineering Degree from ENSIAS and a Master’s in Networks & Security from Sorbonne Université
               </p>
               <p>
-                I specialize in React, Next.js, and TypeScript, building
-                everything from sleek landing pages to complex enterprise
-                applications. My approach combines technical excellence with a
-                keen eye for design and user experience.
+                I specialize in Red Teaming, AppSec, and Cloud Security, with experience ranging from simulating advanced phishing 2.0 and MFA bypass attacks to building unified SAST, DAST, and SCA pipelines. My approach combines rigorous mathematical formalization—achieving 100% detection precision in SIEM rules—with the practical agility required to secure enterprise-scale CI/CD environments.
               </p>
               <p>
-                When I'm not coding, you'll find me exploring new technologies,
-                contributing to open-source projects, or sharing knowledge with
-                the developer community.
+                When I’m not hardening systems, you’ll find me exploring the latest in AI-augmented threat detection, refining my skills in Active Directory attacks, or maintaining my edge through certifications like PNPT and PJPT.
               </p>
             </div>
 
             <div className="glass rounded-2xl p-6 glow-border animate-fade-in animation-delay-300">
               <p className="text-lg font-medium italic text-foreground">
-                "My mission is to create digital experiences that are not just
-                functional, but truly delightful — products that users love to
-                use and developers love to maintain."
+                "My mission is to engineer digital environments that are not just functional, but inherently resilient—building systems that users can trust and creating automated security frameworks that developers can seamlessly integrate and maintain."
               </p>
             </div>
           </div>
