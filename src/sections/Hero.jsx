@@ -11,23 +11,23 @@ import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
 
 const skills = [
   "React",
-  "Next.js",
-  "TypeScript",
-  "Node.js",
-  "GraphQL",
-  "PostgreSQL",
-  "MongoDB",
-  "Redis",
+  "Python",
+  "Javascript",
+  "Burpsuite",
+  "Wazuh",
+  "Suricata",
+  "Metasploit",
+  "Evilginx2",
   "Docker",
   "AWS",
-  "Vercel",
-  "Tailwind CSS",
-  "Prisma",
-  "Jest",
-  "Cypress",
-  "Figma",
-  "Git",
-  "GitHub Actions",
+  "nmap",
+  "Kali",
+  "Go",
+  "Powershell",
+  "Bash",
+  "Osint",
+  "Autopsy",
+  "Java",
 ];
 
 export const Hero = () => {
@@ -69,25 +69,21 @@ export const Hero = () => {
             <div className="animate-fade-in">
               <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary">
                 <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
-                Software Engineer • React Specialist
+                Cyber security Engineer • Purple Team
               </span>
             </div>
 
             {/* Headline */}
             <div className="space-y-4">
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight animate-fade-in animation-delay-100">
-                Crafting <span className="text-primary glow-text">digital</span>
-                <br />
-                experiences with
-                <br />
+                Cyber Security <h1 className="text-primary"> Engineer +</h1>
+                
                 <span className="font-serif italic font-normal text-white">
-                  precision.
+                  IT consultant
                 </span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                Hi, I'm Pedro Machado — a software engineer specializing in
-                React, Next.js, and TypeScript. I build scalable, performant web
-                applications that users love.
+                Hi, I'm Mohamed El Bachari a Security Engineer specializing in Offensive Security, DevSecOps, and Automated Detection. I build and break secure systems, from engineering automated and enhancing security solutions to simulating advanced MFA bypass and Red Team attacks.
               </p>
             </div>
 
@@ -104,11 +100,10 @@ export const Hero = () => {
 
             {/* Social Links */}
             <div className="flex items-center gap-4 animate-fade-in animation-delay-400">
-              <span className="text-sm text-muted-foreground">Follow me: </span>
+              <span className="text-sm text-muted-foreground">Know more about me ? </span>
               {[
-                { icon: Github, href: "#" },
-                { icon: Linkedin, href: "#" },
-                { icon: Twitter, href: "#" },
+                { icon: Github, href: "https://github.com/elbachari" },
+                { icon: Linkedin, href: "https://www.linkedin.com/in/mohamed-el-bachari-7853a3256/?skipRedirect=true" },
               ].map((social, idx) => (
                 <a
                   key={idx}
@@ -142,13 +137,13 @@ export const Hero = () => {
                   <div className="flex items-center gap-3">
                     <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse" />
                     <span className="text-sm font-medium">
-                      Available for work
+                      Available for chat
                     </span>
                   </div>
                 </div>
                 {/* Stats Badge */}
                 <div className="absolute -top-4 -left-4 glass rounded-xl px-4 py-3 animate-float animation-delay-500">
-                  <div className="text-2xl font-bold text-primary">5+</div>
+                  <div className="text-2xl font-bold text-primary">3+</div>
                   <div className="text-xs text-muted-foreground">
                     Years Exp.
                   </div>
@@ -161,7 +156,7 @@ export const Hero = () => {
         {/* Skills Section */}
         <div className="mt-20 animate-fade-in animation-delay-600">
           <p className="text-sm text-muted-foreground mb-6 text-center">
-            Technologies I work with
+            Technologies, languages and some tools I used :  
           </p>
           <div className="relative overflow-hidden">
             <div
