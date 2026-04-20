@@ -2,20 +2,20 @@ import { ArrowUpRight, Github } from "lucide-react";
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 const projects = [
   {
-    title: "Fintech Dashboard",
+    title: "Ticket-chain Cryptocurrency",
     description:
-      "A comprehensive financial analytics platform with real-time data visualization, portfolio management, and AI-powered insights.",
-    image: "/projects/project1.png",
-    tags: ["React", "Typescript", "NodeJS"],
+      "Web3 (blockchain) app designed to solve persistent issues in global sporting events such as ticket fraud, counterfeiting, and illegal resale. By leveraging Ethereum Smart Contracts,",
+    image: "/projects/project1.1.png",
+    tags: ["Ethers.js", "Javascript", "Solidity"],
     link: "#",
-    github: "#",
+    github: "https://github.com/elbachari/TicketChain-WorldCup26-Blockchain-App",
   },
   {
-    title: "E-Commerce Platform",
+    title: "Wazuh Math-Enhancer",
     description:
-      "A full-featured e-commerce solution with inventory management, payment processing, and analytics dashboard.",
-    image: "/projects/project2.png",
-    tags: ["Next.js", "Stripe", "PostgreSQL", "Tailwind"],
+      "A mathematically-formalized threat detection (using weighted timed automata) engine and automation suite for the Wazuh SIEM to optimize and rectify its rules .",
+    image: "/projects/project2.2.webp",
+    tags: ["Python", "Wazuh", "Formal methods", "Uppaal"],
     link: "#",
     github: "#",
   },
