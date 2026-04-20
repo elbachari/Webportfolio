@@ -20,11 +20,11 @@ const projects = [
     github: "#",
   },
   {
-    title: "AI Writing Assistant",
+    title: "Mobile NET-DETECT",
     description:
-      "An intelligent writing tool powered by GPT-4, helping users create better content faster.",
-    image: "/projects/project3.png",
-    tags: ["React", "OpenAI", "Python", "FastAPI"],
+      "A mobile - android application that scanns all the network and mathematically calculate and shows the best wifi network in your position",
+    image: "/projects/project3.3.avif",
+    tags: ["Android studio", "Java", "Python", "FastAPI"],
     link: "#",
     github: "#",
   },
