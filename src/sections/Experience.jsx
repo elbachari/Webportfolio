@@ -1,38 +1,38 @@
 const experiences = [
   {
-    period: "2022 — Present",
-    role: "Senior Frontend Engineer",
-    company: "Tech Innovators Inc.",
+    period: "2026 - Present 6 montths",
+    role: "Cyber Security Consultant",
+    company: "ACG Cybersecurity - Paris",
     description:
-      "Leading frontend architecture for a suite of fintech products. Implemented micro-frontend architecture, reduced bundle size by 40%, and mentored a team of 5 developers.",
-    technologies: ["React", "TypeScript", "Next.js", "GraphQL"],
+      " Engineered a unified DevSecOps platform integrating SAST, DAST, and SCA into CI/CD pipelines while deploying an AI-augmented Wazuh SIEM for advanced behavioral threat detection.",
+    technologies: ["DevSecOps", "AI Agents", "automation", "SAST/DAST/SCA"],
     current: true,
   },
   {
-    period: "2020 — 2022",
-    role: "Frontend Engineer",
-    company: "Digital Solutions Co.",
+    period: "2025 - 6 months",
+    role: "Cyber security researcher",
+    company: "Verimag CNRS - Grenoble",
     description:
-      "Built and maintained multiple React applications for enterprise clients. Introduced automated testing practices that improved code coverage to 85%.",
-    technologies: ["React", "Redux", "Jest", "Cypress"],
+      "Developed a mathematical formalization for Wazuh detection rules, achieving 100% precision against APT scenarios through automated risk analysis and advanced attack simulations.",
+    technologies: ["Wazuh", "Thread detection", "Formal methods", "SIEM"],
     current: false,
   },
   {
-    period: "2019 — 2020",
-    role: "Junior Developer",
-    company: "StartUp Labs",
+    period: "2024 - 3 months",
+    role: "RedTeamer and Ethical hacker",
+    company: "LMPS Group - Casablanca",
     description:
-      "Contributed to the development of a SaaS platform from MVP to production. Collaborated with designers to implement pixel-perfect UI components.",
-    technologies: ["React", "Node.js", "MongoDB", "AWS"],
+      "Executed Phishing 2.0 campaigns and AiTM (Adversary-in-the-Middle) attacks to bypass MFA, subsequently developing Un-Phishable Authentication (UFA) countermeasures to harden enterprise endpoints.",
+    technologies: ["Evilginx", "Phishing", "Yaml", "RedTeam"],
     current: false,
   },
   {
-    period: "2018 — 2019",
-    role: "Freelance Developer",
-    company: "Self-Employed",
+    period: "2023 - 3 months",
+    role: "Pentest | devSecOps Engineer",
+    company: "Attijariwafa Bank - Casablanca",
     description:
-      "Delivered custom web solutions for small businesses and startups. Built 15+ websites and applications, handling everything from design to deployment.",
-    technologies: ["JavaScript", "PHP", "WordPress", "MySQL"],
+      "Optimized security testing by increasing operational efficiency by 25% through the deployment of a Pentest Collaboration Framework and the integration of SSDLC and SAST into internal banking pipelines.",
+    technologies: ["DevSecOps", "Automatisation", "SAST", "DAST"],
     current: false,
   },
 ];
@@ -71,7 +71,7 @@ export const Experience = () => {
            animate-fade-in animation-delay-200"
           >
             A timeline of my professional growth, from curious beginner to
-            senior engineer leading teams and building products at scale.
+             engineer and consultant researching and building products at scale.
           </p>
         </div>
 
