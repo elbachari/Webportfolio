@@ -1,39 +1,49 @@
 import { ArrowUpRight, Github } from "lucide-react";
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 const projects = [
+ 
   {
-    title: "Ticket-chain Cryptocurrency",
+    title: "Wazuh Math-Enhancer",
     description:
-      "Web3 (blockchain) app designed to solve persistent issues in global sporting events such as ticket fraud, counterfeiting, and illegal resale. By leveraging Ethereum Smart Contracts,",
+      "A mathematically-formalized threat detection (using weighted timed automata) engine and automation suite for the Wazuh SIEM to optimize and rectify its rules in order to enhance thread detection .",
+    image: "/projects/project2.2.webp",
+    tags: ["Python", "Wazuh", "Formal methods", "Uppaal"],
+    link: "#",
+    github: "#",
+  },
+   {
+    title: "Bypassing MFA with MiTM",
+    description:
+      "Simulating modern Adversary-in-the-Middle (AiTM) attacks with phishing campaigns to bypass the 2 Factor Authentication solutions and harden enterprise RedTeaming initial access and ethical hacking mecanisms.",
+    image: "/projects/evilginx-pro-term-1PzPkW6v.png",
+    tags: ["evilginx2", "Mitm", "phishing ", "Yaml"],
+    link: "#",
+    github: "https://github.com/elbachari/TicketChain-WorldCup26-Blockchain-App",
+  },
+   {
+    title: "Ticket-chain secure-Cryptocurrency",
+    description:
+      "Web3 (blockchain) app designed to solve persistent security issues in global sporting events such as ticket fraud, counterfeiting, and illegal resale. By leveraging Ethereum Smart Contracts and NFT,",
     image: "/projects/project1.1.png",
     tags: ["Ethers.js", "Javascript", "Solidity"],
     link: "#",
     github: "https://github.com/elbachari/TicketChain-WorldCup26-Blockchain-App",
   },
   {
-    title: "Wazuh Math-Enhancer",
-    description:
-      "A mathematically-formalized threat detection (using weighted timed automata) engine and automation suite for the Wazuh SIEM to optimize and rectify its rules .",
-    image: "/projects/project2.2.webp",
-    tags: ["Python", "Wazuh", "Formal methods", "Uppaal"],
-    link: "#",
-    github: "#",
-  },
-  {
     title: "Mobile NET-DETECT",
     description:
-      "A mobile - android application that scanns all the network and mathematically calculate and shows the best wifi network in your position",
+      "A mobile (android) application that scanns all the network and mathematically calculate and shows the best secure wifi network in your position, also to avoid evil-twin hacking aspects. ",
     image: "/projects/project3.3.avif",
     tags: ["Android studio", "Java", "Python", "FastAPI"],
     link: "#",
     github: "#",
   },
   {
-    title: "Project Management Tool",
+    title: "CTF - helper",
     description:
-      "A collaborative workspace for teams with real-time updates, task tracking, and integrations.",
-    image: "/projects/project4.png",
-    tags: ["Next.js", "Socket.io", "MongoDB", "Redis"],
+      "A modular automation engine designed to accelerate the initial discovery phase of security assessments and CTFs.",
+    image: "/projects/image.png",
+    tags: ["bash", "FFuF", "Gobuster", "nmap"],
     link: "#",
     github: "#",
   },
@@ -59,7 +69,7 @@ export const Projects = () => {
             </span>
           </h2>
           <p className="text-muted-foreground animate-fade-in animation-delay-200">
-            A selection of my recent work, from complex web applications to
+            A selection of my work all accross my learning journey, from complex web applications to
             innovative tools that solve real-world problems.
           </p>
         </div>
